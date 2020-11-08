@@ -11,6 +11,15 @@ public class demo2 {
         System.out.println(b);
         System.out.println(c);
         System.out.println(d);
+        long e = 30L;
+        float f = 12.3F;
+        System.out.println(e);
+        System.out.println(f);
+        {
+            int g = 10;
+            System.out.println(g);
+            System.out.println(e);
+        }
 
     }
 }
@@ -30,4 +39,7 @@ public class demo2 {
 /**
  * 变量 就是内存中的存储空间，空间中存储着经常发生改变的量（数据）
  * 数据类型  整数int 小数double 字符char 布尔boolean
+ * 定义float类型变量的时候，需在值后加F或f标识
+ * 定义long类型变量时候，需在值后加L或l标识
+ * 变量的作用域：只在它所在的大括号内有效
  */
